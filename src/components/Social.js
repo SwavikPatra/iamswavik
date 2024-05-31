@@ -13,7 +13,7 @@ function Social() {
           rel="noopener noreferrer"
           className="link-with-image"
         >
-          <img src="/img/logo/github.png" alt="GitHub" />
+          <img src="${process.env.PUBLIC_URL}/img/logo/github.png" alt="GitHub" />
         </a>
       </div>
       <div className="social-item small">
@@ -23,7 +23,7 @@ function Social() {
           rel="noopener noreferrer"
           className="link-with-image"
         >
-          <img src="/img/logo/linkedin.png" alt="LinkedIn" />
+          <img src="${process.env.PUBLIC_URL}/img/logo/linkedin.png" alt="LinkedIn" />
         </a>
       </div>
       <div className="social-item small">
@@ -33,7 +33,7 @@ function Social() {
           rel="noopener noreferrer"
           className="link-with-image"
         >
-          <img src="/img/logo/twitter.png" alt="Twitter" />
+          <img src="${process.env.PUBLIC_URL}/img/logo/twitter.png" alt="Twitter" />
         </a>
       </div>
       <div className="social-item small">
@@ -43,7 +43,7 @@ function Social() {
           rel="noopener noreferrer"
           className="link-with-image"
         >
-          <img src="/img/logo/code.png" alt="LeetCode" />
+          <img src="${process.env.PUBLIC_URL}/img/logo/code.png" alt="LeetCode" />
         </a>
       </div>
       <div className="social-item small">
@@ -53,7 +53,7 @@ function Social() {
           rel="noopener noreferrer"
           className="link-with-image"
         >
-          <img src="/img/logo/instagram.png" alt="Instagram" />
+          <img src="${process.env.PUBLIC_URL}/img/logo/instagram.png" alt="Instagram" />
         </a>
       </div>
       <div className="social-item large"></div>

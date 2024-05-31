@@ -13,7 +13,7 @@ const projects = [
     details: "Created a ReactJS website using news api from newsapi.org showcasing frontend development skills. Present a user-friendly interface with responsive design for seamless access across devices. Demonstrate proficiency in frontend development, emphasizing state management, API integration, and responsive design principles.",
     githubLink: "https://github.com/SwavikPatra/NewsAPI/tree/master",
     images: [
-      "/img/newsapi/s1.png"
+      "${process.env.PUBLIC_URL}/img/newsapi/s1.png"
     ]
   },
   // Add more projects here...
