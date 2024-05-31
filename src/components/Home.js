@@ -28,7 +28,7 @@ function Home() {
         <p className="p-small">
         Hi, My name is Swavik Patra.
         <br/>
-        An spiring Software engineer.
+        An aspiring Software engineer.
         <br/>
         Dedicated to crafting innovative solutions and pushing the boundaries of technology.
         <br/>
