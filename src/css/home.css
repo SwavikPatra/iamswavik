@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+}
+
+.home-div {
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    padding-left: 50px;
+    
+  }
+
+.size{
+  flex: 1;
+}
+
+.sizee{
+  flex: 2;
+}
+
+.vertical-line {
+  border-left: 2px solid black;
+  height: 300px; /* Adjust the height as needed */
+  margin: 20px; /* Optional, for spacing */
+}
+
+

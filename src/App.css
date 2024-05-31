@@ -1,3 +1,7 @@
+/* body {
+  font-family: 'Sevillana', sans-serif;
+} */
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,24 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-navbar {
+  background-color: white !important; /* Set background color to white */
+  color: black !important; /* Set text color to black */
+}
+
+/* .home{
+  background-color: #e7eaf6;
+} */
+
+.social{
+  width: 100%; /* Full width of the screen */
+  height: 100px; /* Height of 50px */
+}
+
+.home{
+  width : 100%;
+  height : 500px;
+  padding-left: 5%;
+}
+

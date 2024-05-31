@@ -1,0 +1,31 @@
+.social-container {
+  display: flex; /* Use flexbox */
+}
+
+.social-item {
+  padding: 10px; 
+}
+
+.small {
+  flex: 0.5;
+}
+
+.large {
+  flex: 4;
+}
+
+.link-with-image {
+  display: inline-block;
+  padding: 18px; /* Add padding for spacing */
+  text-decoration: none; /* Remove default underline */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.link-with-image img {
+  width: 40px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+}
+
+.link-with-image:hover img {
+  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
