@@ -1,10 +1,11 @@
 import React from 'react'
 import "../css/text-size.css"
+import "../App.css"
 
 function Education() {
   return (
     <div>
-        <section className="education-section">
+        <div className="education-section">
         <h3>Education</h3>
         <div className="card">
           <h5>Master of Technology in Computer Science & Engeneering</h5>
@@ -30,7 +31,7 @@ function Education() {
         <p className="p-x-small">College of Basic Science & Humanities, Bhubaneswar, Odisha, India</p>
         <p className="p-x-small">2011 - 2013</p>
       </div>
-      </section>
+      </div>
     </div>
   )
 }
