@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "../App.css"
 import "../css/bio.css";
 import "../css/card.css";
 
@@ -17,10 +18,11 @@ function Bio() {
 
   return (
     <div className="container">
-      <div className="home-div size left">
-        <div>
-          <p>Hi, I'm Swavik.</p>
+      <div className="home-left size-left left">
+        <div className = "name">
+          <p className="my-name-bio">Hi, I'm Swavik.</p>
         </div>
+        <div className="side-menu">
         <div>
           <button 
             className={`text-button ${clickedButton === 'Education' ? 'active' : ''}`} 
@@ -53,8 +55,10 @@ function Bio() {
             Certificates
           </button>
         </div>
+        </div>
+        
       </div>
-      <div className="home-div sizee vertical-line right">
+      <div className="home-right size-right vertical-line right">
         { clickedButton === 'Education' && <Education/>}
         { clickedButton === 'Skills' && <Skills/>}
         {/* { clickedButton === 'Experiences' && <Experiences/>} */}

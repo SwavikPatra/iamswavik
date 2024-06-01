@@ -3,20 +3,6 @@
     height: 100%;
 }
 
-.home-div {
-    box-sizing: border-box; /* Include padding and border in the element's total width */
-    padding-left: 30px;
-  }
-
-.size{
-  flex: 1;
-}
-
-.sizee{
-  flex: 2;
-}
-
-
 
 .text-button {
     background: none;
@@ -37,14 +23,7 @@
     color: #000; /* Dark black color */
   }
 
-  .left {
-    overflow: hidden; 
-  }
-  
-  .right {
-    overflow-y: auto; 
-    height: 100%;
-  }
+ 
 
   
   

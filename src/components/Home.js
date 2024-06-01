@@ -18,13 +18,14 @@ function Home() {
 
   return (
     <div className="container">
-      <div className="home-div size">
-        <p>Hi, I'm Swavik.</p>
+      <div className="home-left size-left">
+        <p className="my-name">Hi, I'm Swavik.</p>
         <button className="bw-button" onClick={handleBioClick}>
           Bio
         </button>
       </div>
-      <div className="home-div sizee vertical-line">
+  {/* ------------------------------------------------------------------ */}
+      <div className="home-right size-right vertical-line">
         <p className="p-small">
         Hi, My name is Swavik Patra.
         <br/>

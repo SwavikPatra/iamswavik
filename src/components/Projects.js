@@ -15,37 +15,40 @@ function Bio() {
 
   return (
     <div className="container">
-      <div className="home-div size left">
+      <div className="home-left size-left left">
         <div>
           <p>Hi, I'm Swavik.</p>
         </div>
-        <div>
-          <button 
-            className={`text-button ${clickedButton === 'FullstackProjects' ? 'active' : ''}`} 
-            onClick={() => handleButtonClick('FullstackProjects')}
-          >
-            Fullstack Projects
-          </button>
-        </div>
-        <div>
-          <button 
-            className={`text-button ${clickedButton === 'FrontendProjects' ? 'active' : ''}`} 
-            onClick={() => handleButtonClick('FrontendProjects')}
-          >
-            Fontend Projects
-          </button>
-        </div>
-        <div>
-          <button 
-            className={`text-button ${clickedButton === 'AIMLDLProjects' ? 'active' : ''}`} 
-            onClick={() => handleButtonClick('AIMLDLProjects')}
-          >
-            AI/ ML/ DL Projects
-          </button>
-        </div>
+        <div className="side-menu">
+          <div>
+            <button 
+              className={`text-button ${clickedButton === 'FullstackProjects' ? 'active' : ''}`} 
+              onClick={() => handleButtonClick('FullstackProjects')}
+            >
+              Fullstack Projects
+            </button>
+          </div>
+          <div>
+            <button 
+              className={`text-button ${clickedButton === 'FrontendProjects' ? 'active' : ''}`} 
+              onClick={() => handleButtonClick('FrontendProjects')}
+            >
+              Fontend Projects
+            </button>
+          </div>
+          <div>
+            <button 
+              className={`text-button ${clickedButton === 'AIMLDLProjects' ? 'active' : ''}`} 
+              onClick={() => handleButtonClick('AIMLDLProjects')}
+            >
+              AI/ ML/ DL Projects
+            </button>
+          </div>
         
       </div>
-      <div className="home-div sizee vertical-line right">
+        </div>
+        
+      <div className="right home-right size-right vertical-line ">
         { clickedButton === 'FullstackProjects' && <FullstackProjects/>}
         { clickedButton === 'FrontendProjects' && <FrontendProjects/>}
         { clickedButton === 'AIMLDLProjects' && <AIMLDLProjects/>}
