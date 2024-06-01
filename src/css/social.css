@@ -1,5 +1,25 @@
-.social-container {
-  display: flex; /* Use flexbox */
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.social-media-links a {
+  color: black;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+  color: #2196F3; /* Change color on hover */
+}
+
+
+
+
+/* .social-container {
+  display: flex; 
 }
 
 .social-item {
@@ -16,16 +36,16 @@
 
 .link-with-image {
   display: inline-block;
-  padding: 18px; /* Add padding for spacing */
-  text-decoration: none; /* Remove default underline */
-  cursor: pointer; /* Show pointer cursor on hover */
+  padding: 18px; 
+  text-decoration: none; 
+  cursor: pointer; 
 }
 
 .link-with-image img {
-  width: 40px; /* Adjust width as needed */
-  height: 40px; /* Adjust height as needed */
+  width: 40px; 
+  height: 40px; 
 }
 
 .link-with-image:hover img {
-  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
-}
+  opacity: 0.8; 
+} */

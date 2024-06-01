@@ -1,62 +1,28 @@
-import React from "react";
-import "../css/social.css"; // Import CSS file for styling
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faSquareXTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+
+import '../css/social.css';
 
 function Social() {
   return (
-    <div className="social-container">
-      <div className="social-item large"></div>
-      
-      <div className="social-item small">
-        <a
-          href="https://github.com/SwavikPatra"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-with-image"
-        >
-          <img src={`${process.env.PUBLIC_URL}/img/logo/github.png`} alt="GitHub" />
-        </a>
-      </div>
-      <div className="social-item small">
-        <a
-          href="https://www.linkedin.com/in/swavik-patra-140482231/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-with-image"
-        >
-          <img src={`${process.env.PUBLIC_URL}/img/logo/linkedin.png`} alt="LinkedIn" />
-        </a>
-      </div>
-      <div className="social-item small">
-        <a
-          href="https://twitter.com/kunuswavik"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-with-image"
-        >
-          <img src={`${process.env.PUBLIC_URL}/img/logo/twitter.png`} alt="Twitter" />
-        </a>
-      </div>
-      <div className="social-item small">
-        <a
-          href="https://leetcode.com/u/Swavik/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-with-image"
-        >
-          <img src={`${process.env.PUBLIC_URL}/img/logo/code.png`} alt="LeetCode" />
-        </a>
-      </div>
-      <div className="social-item small">
-        <a
-          href="https://www.instagram.com/kunuswavik/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link-with-image"
-        >
-          <img src={`${process.env.PUBLIC_URL}/img/logo/instagram.png`} alt="Instagram" />
-        </a>
-      </div>
-      <div className="social-item large"></div>
+    <div className="social-media-links">
+      <a href="https://github.com/SwavikPatra" title="Github" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} />
+      </a>
+      <a href="https://www.linkedin.com/in/swavik-patra-140482231/" title="Linkedin" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faLinkedin} />
+      </a>
+      <a href="https://twitter.com/kunuswavik" title="Twitter" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faSquareXTwitter} />
+      </a>
+      <a href="https://leetcode.com/u/Swavik/" title="Leetcode" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faLaptopCode} />
+      </a>
+      <a href="https://www.instagram.com/kunuswavik/" title="Instagram" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faInstagram} />
+      </a>
     </div>
   );
 }

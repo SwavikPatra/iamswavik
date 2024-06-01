@@ -5,7 +5,7 @@ function MyNavbar() {
   return (
     <nav className="custom-navbar">
       <div className="navbar-brand">
-        <Link to="/">Swavik</Link>
+        <Link to="/" title="Home">Swavik</Link>
       </div>
       <div className="navbar-links">
         <Link to="/contacts">Contact</Link>
