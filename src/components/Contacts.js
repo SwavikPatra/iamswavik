@@ -6,9 +6,9 @@ function Contacts() {
     <div className="center-content">
       <div className="contact-item">
         <div className="contacts">
-          <img src ={`${process.env.PUBLIC_URL}/img/logo/phone.png`} className="contact-icon" alt= "phonee"/>
+          <img src ={`${process.env.PUBLIC_URL}/img/logo/phone.png`} className="contact-icon" alt= "phone"/>
         </div>
-        <p>+91-9777853386</p>
+        <div className="contact">+91-9777853386</div>
       </div>
       
       
@@ -16,9 +16,9 @@ function Contacts() {
       <div className="contact-item">
         <hr style={{ border: "1px solid ", margin: "20px 0px" }} />
         <div className="contacts mail">
-        <img src ={`${process.env.PUBLIC_URL}/img/logo/mail.png`} className="contact-icon" alt= "phonee"/>
+        <img src ={`${process.env.PUBLIC_URL}/img/logo/mail.png`} className="contact-icon" alt= "phone"/>
         </div>
-        <p>kunuswavik@gmail.com</p>
+        <div className="contact">kunuswavik@gmail.com</div>
       </div>
     </div>
   );
