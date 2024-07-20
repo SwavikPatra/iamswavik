@@ -24,7 +24,7 @@ const projects = [
 
   {
     title: "Tweeting Site",
-    technologies: "HTML, CSS, SendGrid, Bootstrap, SQLite",
+    technologies: "Django, HTML, CSS, SendGrid, Bootstrap, SQLite",
     date: "June 2023",
     details: "A Twitter-like site for creating, deleting, and updating posts. Features include a like button, like count, and user registration/login, comments. Used Django Authentication system and for password reset Sendgrid API is used.",
     githubLink: "https://github.com/SwavikPatra/twitter-clone",
