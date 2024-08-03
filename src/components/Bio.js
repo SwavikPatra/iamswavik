@@ -5,7 +5,7 @@ import "../css/card.css";
 
 import Education from "./Education.js"
 import Skills from "./Skills.js"
-// import Experiences from "./Experiences.js"
+import Experiences from "./Experiences.js"
 import Certificates from "./Certificates.js"
 
 
@@ -39,14 +39,14 @@ function Bio() {
             Skills
           </button>
         </div>
-        {/* <div>
+        <div>
           <button 
             className={`text-button ${clickedButton === 'Experiences' ? 'active' : ''}`} 
             onClick={() => handleButtonClick('Experiences')}
           >
             Experiences
           </button>
-        </div> */}
+        </div>
         <div>
           <button 
             className={`text-button ${clickedButton === 'Certificates' ? 'active' : ''}`} 
@@ -61,7 +61,7 @@ function Bio() {
       <div className="home-right size-right vertical-line right">
         { clickedButton === 'Education' && <Education/>}
         { clickedButton === 'Skills' && <Skills/>}
-        {/* { clickedButton === 'Experiences' && <Experiences/>} */}
+        { clickedButton === 'Experiences' && <Experiences/>}
         { clickedButton === 'Certificates' && <Certificates/>}
       </div>
     </div>
