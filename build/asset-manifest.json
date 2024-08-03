@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iamswavik/static/css/main.b4c6a3d1.css",
+    "main.js": "/iamswavik/static/js/main.eab68f3b.js",
+    "index.html": "/iamswavik/index.html",
+    "main.b4c6a3d1.css.map": "/iamswavik/static/css/main.b4c6a3d1.css.map",
+    "main.eab68f3b.js.map": "/iamswavik/static/js/main.eab68f3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4c6a3d1.css",
+    "static/js/main.eab68f3b.js"
+  ]
+}
