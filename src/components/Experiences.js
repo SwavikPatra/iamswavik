@@ -20,7 +20,7 @@ function Experiences() {
           </ul>
         </div>
         
-        {/* You can add more experience cards here if needed */}
+        {/* You can add more experience cards here if needed, if you got more experience*/}
       </div>
     </div>
   );
