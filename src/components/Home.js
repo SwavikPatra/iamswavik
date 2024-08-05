@@ -27,7 +27,7 @@ function Home() {
           </button>
         </a>
       </div>
-      {/* --------------------------------------------------------------------- */}
+      {/* ---------------------------------------------------------------------- */}
       <div className="home-right size-right vertical-line">
         <p className="p-small">
           Hi, My name is Swavik Patra.

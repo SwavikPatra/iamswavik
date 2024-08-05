@@ -14,6 +14,21 @@
     border-radius: 25px;
   }
 
+
+  
+  
+  .bw-button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+  }
+  
+  .bw-button:active {
+    background-color: gray;
+    color: white;
+    border: 2px solid gray;
+  }
+  
   .bw-button-resume {
     background-color: white;
     color: black;
@@ -25,15 +40,14 @@
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     border-radius: 25px;
   }
-  
-  
-  .bw-button:hover {
-    background-color: black;
+
+  .bw-button-resume:hover {
+    background-color: #2196F3;
     color: white;
     border: 2px solid black;
   }
   
-  .bw-button:active {
+  .bw-button-resume:active {
     background-color: gray;
     color: white;
     border: 2px solid gray;
