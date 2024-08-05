@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/iamswavik/static/css/main.b4c6a3d1.css",
-    "main.js": "/iamswavik/static/js/main.fe1b6558.js",
+    "main.css": "/iamswavik/static/css/main.03ce9ece.css",
+    "main.js": "/iamswavik/static/js/main.66b1ac68.js",
     "index.html": "/iamswavik/index.html",
-    "main.b4c6a3d1.css.map": "/iamswavik/static/css/main.b4c6a3d1.css.map",
-    "main.fe1b6558.js.map": "/iamswavik/static/js/main.fe1b6558.js.map"
+    "main.03ce9ece.css.map": "/iamswavik/static/css/main.03ce9ece.css.map",
+    "main.66b1ac68.js.map": "/iamswavik/static/js/main.66b1ac68.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4c6a3d1.css",
-    "static/js/main.fe1b6558.js"
+    "static/css/main.03ce9ece.css",
+    "static/js/main.66b1ac68.js"
   ]
 }
