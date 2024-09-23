@@ -18,7 +18,7 @@ function Contacts() {
         <div className="contacts mail">
         <img src ={`${process.env.PUBLIC_URL}/img/logo/mail.png`} className="contact-icon" alt= "phone"/>
         </div>
-        <div className="contact">kunuswavik@gmail.com</div>
+        <div className="contact">swavikpatra@gmail.com</div>
       </div>
     </div>
   );
