@@ -15,11 +15,11 @@ const SkillSection = () => {
       </div>
       <div className="card">
         <h5>Backend Technologies</h5>
-        <p className="p-x-small">Node.js, Express.js, Django, RESTfull API</p>
+        <p className="p-x-small">Node.js, Express.js, Django, RESTfull API, Flask, Fast API</p>
       </div>
       <div className="card">
         <h5>Database Systems</h5>
-        <p className="p-x-small">MySQL, MongoDB</p>
+        <p className="p-x-small">MySQL, MongoDB, Postgres, Redis</p>
       </div>
       <div className="card">
         <h5>Version Control</h5>
@@ -31,7 +31,7 @@ const SkillSection = () => {
       </div>
       <div className="card">
         <h5>Course Works</h5>
-        <p className="p-x-small"> Operating System, DBMS, Computer Networking, Data Structures and Algorithms</p>
+        <p className="p-x-small"> Operating System, Database, Computer Networking, Data Structures and Algorithms</p>
       </div>
       <div className="card">
         <h5>Soft Skills</h5>
@@ -40,7 +40,7 @@ const SkillSection = () => {
       
       <div className="card">
         <h5>Areas of Interest</h5>
-        <p className="p-x-small"> Web Development, Software Development, Cloud Computing</p>
+        <p className="p-x-small"> Web Development, Software Development, AI/ML, Data science</p>
       </div>
     </section>
   );
